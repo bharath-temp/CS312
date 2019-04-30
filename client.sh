@@ -1,0 +1,1 @@
+while :; do current_date_time=`date "+%Y-%m-%d %H:%M:%S"`; echo 'Date: ' + $current_date_time; printf "\n"; curl server:8082; printf "\n\n\n\n\n"; sleep 3; done
